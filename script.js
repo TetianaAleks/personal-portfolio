@@ -14,7 +14,7 @@ function renderProjects() {
     .map(
       (project) => `
       <div class="project-card">
-        <img src="${project.image}" alt="${project.title}">
+        <img src="${project.image.slice(1)}" alt="${project.title}">
         <h3>${project.title}</h3>
         <p class="card__desc">${project.description}</p>
         <ul class="tags">
