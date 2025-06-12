@@ -14,8 +14,8 @@ It displays all completed projects with a convenient filter system and search fu
 
 ## Links
 
-- [Solution URL on GitHub]()
-- [Live Site on GitHub Pages]()
+- [Solution URL on GitHub](https://github.com/TetianaAleks/personal-portfolio/tree/main/projects)
+- [Live Site on GitHub Pages](https://tetianaaleks.github.io/personal-portfolio/projects/index.html)
 
 ## Built with
 
