@@ -19,6 +19,10 @@
     margin-left: 4%;
     margin-right: 4%;
   }
+
+  .home-projects {
+    padding-top: 14%;
+  }
 }
 
 @media (max-width: 900px) {
@@ -44,10 +48,13 @@
   .contact__title {
     font-size: 3.8rem;
   }
-   #projects-container {
+  #projects-container {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 2rem;
     justify-content: center;
+  }
+  .home-projects {
+    padding-top: 20%;
   }
 }
 
@@ -103,5 +110,11 @@
   }
   #projects-container {
     grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+  .home-projects {
+    padding-top: 60%;
+  }
+  #search {
+    min-width: 100%;
   }
 }

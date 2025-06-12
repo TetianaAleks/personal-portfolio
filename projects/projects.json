@@ -1,0 +1,246 @@
+[
+  {
+    "id": 24,
+    "title": "Chat app CSS illustration",
+    "description": "In this challenge, you'll be building out the entire app illustration from scratch. This will seriously test your CSS skills. So give it a go if you feel confident!",
+    "image": "../images/projects/20-chat-app-css-illustration.png",
+    "url": "https://tetianaaleks.github.io/fm-solutions-hub/20-chat-app-css-illustration/",
+    "linkFM": "https://www.frontendmentor.io/solutions/chat-app-css-illustration-zcMgvsuxDH",
+    "githubUrl": "https://github.com/TetianaAleks/fm-solutions-hub/tree/main/20-chat-app-css-illustration",
+    "tags": ["html", "css"]
+  },
+  {
+    "id": 23,
+    "title": "Clipboard landing page",
+    "description": "Put your layout skills to the test with this HTML & CSS landing page challenge. This challenge includes a design for hover states.",
+    "image": "../images/projects/19-clipboard-landing-page.png",
+    "url": "https://tetianaaleks.github.io/fm-solutions-hub/19-clipboard-landing-page/",
+    "linkFM": "https://www.frontendmentor.io/solutions/clipboard-landing-page-s8Zi9pV9m0",
+    "githubUrl": "https://github.com/TetianaAleks/fm-solutions-hub/tree/main/19-clipboard-landing-page",
+    "tags": ["html", "css"]
+  },
+  {
+    "id": 22,
+    "title": "Fylo Data Storage Component with Dynamic Data Updates Using JavaScript",
+    "description": "This component has some interesting CSS challenges in the design. If you're looking to test your CSS skills, this will be a great project for you!",
+    "image": "../images/projects/18-fylo-data-storage-component.png",
+    "url": "https://tetianaaleks.github.io/fm-solutions-hub/18-fylo-data-storage-component/",
+    "linkFM": "https://www.frontendmentor.io/solutions/fylo-data-storage-component-with-dynamic-data-updates-using-javascript-FaOGf26vIv",
+    "githubUrl": "https://github.com/TetianaAleks/fm-solutions-hub/tree/main/18-fylo-data-storage-component",
+    "tags": ["html", "css", "js"]
+  },
+  {
+    "id": 21,
+    "title": "Bento grid",
+    "description": "This challenge is perfect for testing your CSS Grid and responsive skills with this bento grid layout.",
+    "image": "../images/projects/17-bento-grid.png",
+    "url": "https://tetianaaleks.github.io/fm-solutions-hub/17-bento-grid/",
+    "linkFM": "https://www.frontendmentor.io/solutions/bento-grid-tJd5EUU2ha",
+    "githubUrl": "https://github.com/TetianaAleks/fm-solutions-hub/tree/main/17-bento-grid",
+    "tags": ["html", "css"]
+  },
+  {
+    "id": 20,
+    "title": "Huddle landing page with a single introductory section",
+    "description": "A perfect challenge for beginners, this project will get you working with a two column layout.",
+    "image": "../images/projects/16-huddle-landing-page-with-single-introductory-section.png",
+    "url": "https://tetianaaleks.github.io/fm-solutions-hub/16-huddle-landing-page-with-single-introductory-section/",
+    "linkFM": "https://www.frontendmentor.io/solutions/huddle-landing-page-with-a-single-introductory-section-hpCuI85ckw",
+    "githubUrl": "https://github.com/TetianaAleks/fm-solutions-hub/tree/main/16-huddle-landing-page-with-single-introductory-section",
+    "tags": ["html", "css"]
+  },
+  {
+    "id": 19,
+    "title": "Single price grid component",
+    "description": "In this challenge, you will build out the pricing component to the designs provided. This is perfect for beginners and people who want to complete a smaller challenge.",
+    "image": "../images/projects/15-single-price-grid-component.png",
+    "url": "https://tetianaaleks.github.io/fm-solutions-hub/15-single-price-grid-component/",
+    "linkFM": "https://www.frontendmentor.io/solutions/single-price-grid-component-mmMql14j_9",
+    "githubUrl": "https://github.com/TetianaAleks/fm-solutions-hub/tree/main/15-single-price-grid-component",
+    "tags": ["html", "css"]
+  },
+  {
+    "id": 18,
+    "title": "Social proof section",
+    "description": "This project will test your layout skills. If you're starting to get confident with Flexbox or Grid, this will provide a nice challenge!",
+    "image": "../images/projects/14-social-proof-section.png",
+    "url": "https://tetianaaleks.github.io/fm-solutions-hub/14-social-proof-section/",
+    "linkFM": "https://www.frontendmentor.io/solutions/social-proof-section-ECfdNrx8zx",
+    "githubUrl": "https://github.com/TetianaAleks/fm-solutions-hub/tree/main/14-social-proof-section",
+    "tags": ["html", "css"]
+  },
+  {
+    "id": 17,
+    "title": "Profile card component",
+    "description": "This is a perfect challenge to test your layout skills. The card layout doesn't shift, so it's also great for those that haven't dived into responsive websites yet!",
+    "image": "../images/projects/13-profile-card-component.png",
+    "url": "https://tetianaaleks.github.io/fm-solutions-hub/13-profile-card-component/",
+    "linkFM": "https://www.frontendmentor.io/solutions/profile-card-component-j9EBX8r7m2",
+    "githubUrl": "https://github.com/TetianaAleks/fm-solutions-hub/tree/main/13-profile-card-component",
+    "tags": ["html", "css"]
+  },
+  {
+    "id": 16,
+    "title": "3-column preview card component",
+    "description": "This challenge is perfect if you're just getting started. The shift between the layouts will be a nice test if you're new to building responsive projects.",
+    "image": "../images/projects/12-3-column-preview-card-component.png",
+    "url": "https://tetianaaleks.github.io/fm-solutions-hub/12-3-column-preview-card-component/",
+    "linkFM": "https://www.frontendmentor.io/solutions/3-column-preview-card-component-XI_BZPMTpj",
+    "githubUrl": "https://github.com/TetianaAleks/fm-solutions-hub/tree/main/12-3-column-preview-card-component",
+    "tags": ["html", "css"]
+  },
+  {
+    "id": 15,
+    "title": "Stats preview card component",
+    "description": "This is a great small challenge to help get you used to building to a design. There's no JS in this project, so you'll be able to focus on your HTML & CSS skills.",
+    "image": "../images/projects/11-stats-preview-card-component.png",
+    "url": "https://tetianaaleks.github.io/fm-solutions-hub/11-stats-preview-card-component/",
+    "linkFM": "https://www.frontendmentor.io/solutions/stats-preview-card-component-bUfGfERcTN",
+    "githubUrl": "https://github.com/TetianaAleks/fm-solutions-hub/tree/main/11-stats-preview-card-component",
+    "tags": ["html", "css"]
+  },
+  {
+    "id": 14,
+    "title": "Order summary component",
+    "description": "A perfect project for newbies who are starting to build confidence with layouts!",
+    "image": "../images/projects/10-order-summary-component.png",
+    "url": "https://tetianaaleks.github.io/fm-solutions-hub/10-order-summary-component/",
+    "linkFM": "https://www.frontendmentor.io/solutions/order-summary-component-joJnJY4LIF",
+    "githubUrl": "https://github.com/TetianaAleks/fm-solutions-hub/tree/main/10-order-summary-component",
+    "tags": ["html", "css"]
+  },
+  {
+    "id": 13,
+    "title": "Results summary component",
+    "description": "This challenge has something for everyone. It’s a HTML and CSS only project, but we’ve also provided a JSON file of the test results for anyone wanting to practice JS.",
+    "image": "../images/projects/09-results-summary-component.png",
+    "url": "https://tetianaaleks.github.io/fm-solutions-hub/09-results-summary-component/",
+    "linkFM": "https://www.frontendmentor.io/solutions/results-summary-component-mLArmaFhfO",
+    "githubUrl": "https://github.com/TetianaAleks/fm-solutions-hub/tree/main/09-results-summary-component",
+    "tags": ["html", "css"]
+  },
+  {
+    "id": 12,
+    "title": "NFT preview card component",
+    "description": "This HTML & CSS only challenge is perfect for anyone just starting out or anyone wanting a small project to play around with.",
+    "image": "../images/projects/08-nft-preview-card-component.png",
+    "url": "https://tetianaaleks.github.io/fm-solutions-hub/08-nft-preview-card-component/",
+    "linkFM": "https://www.frontendmentor.io/solutions/nft-preview-card-component-PTFxtGZE4b",
+    "githubUrl": "https://github.com/TetianaAleks/fm-solutions-hub/tree/main/08-nft-preview-card-component",
+    "tags": ["html", "css"]
+  },
+  {
+    "id": 11,
+    "title": "Newsletter sign-up form with success message",
+    "description": "This will test your skills with basic form structure, validation, and submission. The success state will also be an excellent opportunity to work with DOM manipulation.",
+    "image": "../images/projects/22-newsletter-sign-up-with-success-message.png",
+    "url": "/newsletter-sign-up",
+    "linkFM": "https://www.frontendmentor.io/solutions/responsive-newsletter-form-with-validation-and-success-message-7ym3SJcOS7",
+    "githubUrl": "https://github.com/TetianaAleks/fem-projects-hub/tree/main/src/app/solutions/newsletter-sign-up",
+    "tags": ["html", "css", "js"]
+  },
+  {
+    "id": 10,
+    "title": "Article preview component",
+    "description": "Practice your layout skills with this article preview component. There's lots of fun to be had playing around with animations for the sharing icons as well.",
+    "image": "../images/projects/21-article-preview-component.png",
+    "url": "/article-preview-component",
+    "linkFM": "https://www.frontendmentor.io/solutions/article-preview-component-with-scss-styling-and-share-animation-YZHQS8EFQN",
+    "githubUrl": "https://github.com/TetianaAleks/fem-projects-hub/tree/main/src/app/solutions/article-preview-component",
+    "tags": ["html", "css", "js"]
+  },
+  {
+    "id": 9,
+    "title": "Product preview card component",
+    "description": "This HTML & CSS-only challenge will be perfect for anyone starting to build responsive projects.",
+    "image": "../images/projects/05-product-preview-card-component.png",
+    "url": "https://tetianaaleks.github.io/fm-solutions-hub/05-product-preview-card-component/",
+    "linkFM": "https://www.frontendmentor.io/solutions/product-preview-card-html5-scss-flexbox-oJUKnH03kG",
+    "githubUrl": "https://github.com/TetianaAleks/fm-solutions-hub/tree/main/05-product-preview-card-component",
+    "tags": ["html", "css"]
+  },
+  {
+    "id": 8,
+    "title": "Testimonials grid section",
+    "description": "This challenge will be perfect practice for anyone wanting to test their CSS Grid skills. Grid is such a powerful addition to CSS, so it's worth getting to grips with it!",
+    "image": "../images/projects/07-testimonials-grid-section.png",
+    "url": "https://tetianaaleks.github.io/fm-solutions-hub/07-testimonials-grid-section/",
+    "linkFM": "https://www.frontendmentor.io/solutions/testimonials-grid-section-css-grid-and-bem-practice-9UcJzQRGUe",
+    "githubUrl": "https://github.com/TetianaAleks/fm-solutions-hub/tree/main/07-testimonials-grid-section",
+    "tags": ["html", "css"]
+  },
+  {
+    "id": 7,
+    "title": "Four card feature section",
+    "description": "A nice layout-based challenge for beginners. This will test anyone who is new to multi-column and responsive layouts.",
+    "image": "../images/projects/06-four-card-feature-section.png",
+    "url": "https://tetianaaleks.github.io/fm-solutions-hub/06-four-card-feature-section/",
+    "linkFM": "https://www.frontendmentor.io/solutions/solution-title-include-some-of-the-tools-and-techniques-you-used-to-c-nUF_1kH0gr",
+    "githubUrl": "https://github.com/TetianaAleks/fm-solutions-hub/tree/main/06-four-card-feature-section",
+    "tags": ["html", "css"]
+  },
+  {
+    "id": 6,
+    "title": "Recipe page",
+    "description": "This challenge will help you focus on writing semantic HTML. Ensure you think through what HTML elements are most appropriate for each piece of content.",
+    "image": "../images/projects/04-recipe-page.png",
+    "url": "https://tetianaaleks.github.io/fm-solutions-hub/04-recipe-page/",
+    "linkFM": "https://www.frontendmentor.io/solutions/recipe-page-semantic-html-css-custom-properties-and-accessible-tables-xk02taac2w",
+    "githubUrl": "https://github.com/TetianaAleks/fm-solutions-hub/tree/main/04-recipe-page",
+    "tags": ["html", "css"]
+  },
+  {
+    "id": 5,
+    "title": "Social links profile",
+    "description": "In this small project, you'll build out your social link-sharing profile. You can even personalize it and use it to share all your social profiles!",
+    "image": "../images/projects/03-social-links-profile.png",
+    "url": "https://tetianaaleks.github.io/fm-solutions-hub/03-social-links-profile/",
+    "linkFM": "https://www.frontendmentor.io/solutions/responsive-social-links-card-with-semantic-html-rem-units-and-css-varia-Cwauw2jcPG",
+    "githubUrl": "https://github.com/TetianaAleks/fm-solutions-hub/tree/main/03-social-links-profile",
+    "tags": ["html", "css"]
+  },
+  {
+    "id": 4,
+    "title": "Blog preview card",
+    "description": "This HTML & CSS-only challenge is a perfect project for beginners getting up to speed with HTML and CSS fundamentals, like HTML structure and the box model.",
+    "image": "../images/projects/02-blog-preview-card.png",
+    "url": "https://tetianaaleks.github.io/fm-solutions-hub/02-blog-preview-card/",
+    "linkFM": "https://www.frontendmentor.io/solutions/responsive-blog-preview-card-using-html-css-clamp-and-local-fonts-NlR1mhHfNW",
+    "githubUrl": "https://github.com/TetianaAleks/fm-solutions-hub/tree/main/02-blog-preview-card",
+    "tags": ["html", "css"]
+  },
+  {
+    "id": 3,
+    "title": "QR code component",
+    "description": "A perfect first challenge if you're new to HTML and CSS. The card layout doesn't shift, so it's ideal if you haven't learned about building responsive layouts yet.",
+    "tags": ["html", "css"],
+    "image": "../images/projects/01-qr-code-component-main.png",
+    "url": "https://tetianaaleks.github.io/fm-solutions-hub/01-qr-code-component-main/",
+    "githubUrl": "https://github.com/TetianaAleks/fm-solutions-hub/tree/main/01-qr-code-component-main",
+    "linkFM": "https://www.frontendmentor.io/solutions/responsive-qr-code-component-using-html-css-and-flexbox-7O_PI0fTOw"
+  },
+  {
+    "id": 2,
+    "title": "Frontend Mentor Solutions",
+    "description": "Frontend Mentor Solutions is an Angular-based project showcasing my completed Frontend Mentor challenges. It highlights responsive layouts, clean component structure, and modern UI practices — all in one place.",
+    "tags": [
+      "angular",
+      "tailwind css",
+      "angular animation",
+      "scss (sass)",
+      "angular router"
+    ],
+    "image": "../images/projects/fem-projects-hub.png",
+    "url": "https://fem-projects-hub.vercel.app/",
+    "githubUrl": "https://github.com/TetianaAleks/fem-projects-hub"
+  },
+  {
+    "id": 1,
+    "title": "Personal Portfolio Website",
+    "description": "A modern, responsive portfolio built with React, Vite, and Tailwind CSS to showcase my frontend development skills and recent projects.",
+    "tags": ["react", "vite", "tailwind css", "framer motion", "formspree"],
+    "image": "../images/projects/portfolio-project.png",
+    "url": "https://tetiana-dev.vercel.app/",
+    "githubUrl": "https://github.com/TetianaAleks/dev-portfolio"
+  }
+]

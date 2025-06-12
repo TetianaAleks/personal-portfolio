@@ -8,8 +8,8 @@ This project is a solution for the "Build a Personal Portfolio Webpage" challeng
 
 ## Links
 
-- [Solution URL on GitHub]()
-- [Live Site on GitHub Pages]()
+- [Solution URL on GitHub](https://github.com/TetianaAleks/personal-portfolio)
+- [Live Site on GitHub Pages](https://tetianaaleks.github.io/personal-portfolio/)
 
 ## Built with
 

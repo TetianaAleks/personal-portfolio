@@ -2,10 +2,10 @@ const projectContainer = document.getElementById("projects-container");
 
 let allProjects = [];
 
-fetch("projects.json")
+fetch("./projects/projects.json")
   .then((res) => res.json())
   .then((data) => {
-    allProjects = data;
+    allProjects = data.slice(0, 6);
     renderProjects();
   });
 
