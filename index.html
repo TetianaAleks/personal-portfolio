@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tetiana | Frontend Developer</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/logo1_1.png"
+    />
+  </head>
+  <body>
+    <header id="navbar" class="header">
+      <nav class="nav">
+        <ul class="nav__items">
+          <li class="nav__item">
+            <a href="#home" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#skills" class="nav__link">Skills</a>
+          </li>
+          <li class="nav__item">
+            <a href="#projects" class="nav__link">Works</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home" class="home">
+      <div class="home__container wrapper">
+        <div class="home__header">
+          <h1 class="home__title">Tetiana</h1>
+          <h2 class="home__subtitle">Front-end Developer</h2>
+        </div>
+        <ul class="home__links">
+          <li class="home__item">
+            <a href="https://github.com/TetianaAleks" class="home__link"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M12.001 2C6.47598 2 2.00098 6.475 2.00098 12C2.00098 16.425 4.86348 20.1625 8.83848 21.4875C9.33848 21.575 9.52598 21.275 9.52598 21.0125C9.52598 20.775 9.51348 19.9875 9.51348 19.15C7.00098 19.6125 6.35098 18.5375 6.15098 17.975C6.03848 17.6875 5.55098 16.8 5.12598 16.5625C4.77598 16.375 4.27598 15.9125 5.11348 15.9C5.90098 15.8875 6.46348 16.625 6.65098 16.925C7.55098 18.4375 8.98848 18.0125 9.56348 17.75C9.65098 17.1 9.91348 16.6625 10.201 16.4125C7.97598 16.1625 5.65098 15.3 5.65098 11.475C5.65098 10.3875 6.03848 9.4875 6.67598 8.7875C6.57598 8.5375 6.22598 7.5125 6.77598 6.1375C6.77598 6.1375 7.61348 5.875 9.52598 7.1625C10.326 6.9375 11.176 6.825 12.026 6.825C12.876 6.825 13.726 6.9375 14.526 7.1625C16.4385 5.8625 17.276 6.1375 17.276 6.1375C17.826 7.5125 17.476 8.5375 17.376 8.7875C18.0135 9.4875 18.401 10.375 18.401 11.475C18.401 15.3125 16.0635 16.1625 13.8385 16.4125C14.201 16.725 14.5135 17.325 14.5135 18.2625C14.5135 19.6 14.501 20.675 14.501 21.0125C14.501 21.275 14.6885 21.5875 15.1885 21.4875C19.259 20.1133 21.9999 16.2963 22.001 12C22.001 6.475 17.526 2 12.001 2Z"
+                ></path>
+              </svg>
+            </a>
+          </li>
+          <li class="home__item">
+            <a
+              href="https://www.frontendmentor.io/profile/TetianaAleks"
+              class="home__link"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                width="800px"
+                height="800px"
+                viewBox="0 0 24 24"
+                role="img"
+              >
+                <path
+                  d="M12.17 1.272a.732.732 0 0 0-.718.732v13.914a.732.732 0 0 0 .732.732.732.732 0 0 0 .732-.732V2.004a.732.732 0 0 0-.745-.732zM23.246 5.44a.734.734 0 0 0-.277.063l-6.282 2.804a.733.733 0 0 0 0 1.336l6.282 2.813a.738.738 0 0 0 .3.065.732.732 0 0 0 .297-1.4L18.78 8.976l4.786-2.137a.734.734 0 0 0 .37-.966.734.734 0 0 0-.69-.433zm-22.5 5.032a.732.732 0 0 0-.722.915c1.736 6.677 7.775 11.341 14.683 11.341a.732.732 0 0 0 0-1.464A13.706 13.706 0 0 1 1.44 11.02a.732.732 0 0 0-.694-.547z"
+                />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="wrapper about__container">
+        <img src="./images/About.png" alt="About" class="about__img" />
+        <div class="about__block">
+          <h3 class="about__title">About Me</h3>
+          <p class="about__desc">
+            I'm Tetiana — a Frontend Developer crafting responsive, accessible,
+            and visually appealing websites. I focus on clean structure,
+            pixel-perfect layouts, and smooth user experience.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="wrapper skills__container projects__container">
+        <h3 class="skills__title">Latest Projects</h3>
+
+        <div id="projects-container"></div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="wrapper contact__container">
+        <h3 class="contact__title">
+          Drop me a line. <br />
+          I would like to hear from you.
+        </h3>
+        <form class="contact__form" id="contact-form">
+          <h3 class="contact__form-title">Get in Touch</h3>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="contact__input"
+            placeholder="Name"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="contact__input"
+            placeholder="Email"
+            required
+          />
+          <textarea
+            name="message"
+            id="message"
+            class="contact__textarea"
+            placeholder="Message"
+            required
+          ></textarea>
+
+          <button type="submit" class="btn contact__btn">Send Message</button>
+          <div id="status"></div>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer" id="footer">
+      <div class="wrapper footer__container">
+        <ul class="home__links">
+          <li class="home__item">
+            <a href="https://github.com/TetianaAleks" class="home__link"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M12.001 2C6.47598 2 2.00098 6.475 2.00098 12C2.00098 16.425 4.86348 20.1625 8.83848 21.4875C9.33848 21.575 9.52598 21.275 9.52598 21.0125C9.52598 20.775 9.51348 19.9875 9.51348 19.15C7.00098 19.6125 6.35098 18.5375 6.15098 17.975C6.03848 17.6875 5.55098 16.8 5.12598 16.5625C4.77598 16.375 4.27598 15.9125 5.11348 15.9C5.90098 15.8875 6.46348 16.625 6.65098 16.925C7.55098 18.4375 8.98848 18.0125 9.56348 17.75C9.65098 17.1 9.91348 16.6625 10.201 16.4125C7.97598 16.1625 5.65098 15.3 5.65098 11.475C5.65098 10.3875 6.03848 9.4875 6.67598 8.7875C6.57598 8.5375 6.22598 7.5125 6.77598 6.1375C6.77598 6.1375 7.61348 5.875 9.52598 7.1625C10.326 6.9375 11.176 6.825 12.026 6.825C12.876 6.825 13.726 6.9375 14.526 7.1625C16.4385 5.8625 17.276 6.1375 17.276 6.1375C17.826 7.5125 17.476 8.5375 17.376 8.7875C18.0135 9.4875 18.401 10.375 18.401 11.475C18.401 15.3125 16.0635 16.1625 13.8385 16.4125C14.201 16.725 14.5135 17.325 14.5135 18.2625C14.5135 19.6 14.501 20.675 14.501 21.0125C14.501 21.275 14.6885 21.5875 15.1885 21.4875C19.259 20.1133 21.9999 16.2963 22.001 12C22.001 6.475 17.526 2 12.001 2Z"
+                ></path>
+              </svg>
+            </a>
+          </li>
+          <li class="home__item">
+            <a
+              href="https://www.frontendmentor.io/profile/TetianaAleks"
+              class="home__link"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                width="800px"
+                height="800px"
+                viewBox="0 0 24 24"
+                role="img"
+              >
+                <path
+                  d="M12.17 1.272a.732.732 0 0 0-.718.732v13.914a.732.732 0 0 0 .732.732.732.732 0 0 0 .732-.732V2.004a.732.732 0 0 0-.745-.732zM23.246 5.44a.734.734 0 0 0-.277.063l-6.282 2.804a.733.733 0 0 0 0 1.336l6.282 2.813a.738.738 0 0 0 .3.065.732.732 0 0 0 .297-1.4L18.78 8.976l4.786-2.137a.734.734 0 0 0 .37-.966.734.734 0 0 0-.69-.433zm-22.5 5.032a.732.732 0 0 0-.722.915c1.736 6.677 7.775 11.341 14.683 11.341a.732.732 0 0 0 0-1.464A13.706 13.706 0 0 1 1.44 11.02a.732.732 0 0 0-.694-.547z"
+                />
+              </svg>
+            </a>
+          </li>
+        </ul>
+        <p class="footer__text">
+          All Rights Reserved
+          <svg
+            width="22"
+            height="22"
+            viewBox="0 0 22 22"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M11 1.83337C6.03079 1.83337 1.83337 6.03171 1.83337 11C1.83337 15.9684 6.03079 20.1667 11 20.1667C15.9693 20.1667 20.1667 15.9684 20.1667 11C20.1667 6.03171 15.9693 1.83337 11 1.83337ZM11 13.75C11.9094 13.75 12.6959 13.5071 13.102 13.101L14.3981 14.3981C13.366 15.4294 11.826 15.5834 11 15.5834C8.47279 15.5834 6.41671 13.5273 6.41671 11C6.41671 8.47279 8.47279 6.41671 11 6.41671C11.826 6.41671 13.3669 6.57071 14.3981 7.60196L13.102 8.89812C12.6968 8.49204 11.9103 8.25004 11 8.25004C9.50954 8.25004 8.25004 9.50954 8.25004 11C8.25004 12.4905 9.50954 13.75 11 13.75Z"
+              fill="#928A97"
+            />
+          </svg>
+          2025 Tetiana
+          <svg
+            width="20"
+            height="18"
+            viewBox="0 0 20 18"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0.833374 5.7C0.833145 4.37114 1.36723 3.09799 2.31545 2.16701C3.26368 1.23602 4.54641 0.725392 5.87504 0.749995C7.44925 0.741635 8.95137 1.40924 10 2.58333C11.0487 1.40924 12.5508 0.741635 14.125 0.749995C15.4537 0.725392 16.7364 1.23602 17.6846 2.16701C18.6328 3.09799 19.1669 4.37114 19.1667 5.7C19.1667 10.6097 13.3193 14.3167 10 17.25C6.68812 14.2919 0.833374 10.6133 0.833374 5.7Z"
+              fill="#F44336"
+            />
+          </svg>
+        </p>
+      </div>
+    </footer>
+
+    <a href="#navbar" class="back-to-top" aria-label="Back to top">↑</a>
+
+    <script src="script.js"></script>
+  </body>
+</html>
