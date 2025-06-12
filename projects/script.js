@@ -13,6 +13,15 @@ fetch("projects.json")
   .then((res) => res.json())
   .then((data) => {
     allProjects = data;
+    const params = new URLSearchParams(window.location.search);
+    const filterByLinkFM = params.get("linkFM") === "true";
+
+    if (filterByLinkFM) {
+      const fmCheckbox = document.getElementById("filter-fm");
+      if (fmCheckbox) {
+        fmCheckbox.checked = true;
+      }
+    }
     renderProjects();
   });
 
@@ -29,7 +38,12 @@ function renderProjects() {
 
     const matchesTags =
       selectedTags.length === 0 ||
-      selectedTags.every((tag) => project.tags.includes(tag));
+      selectedTags.every((tag) => {
+        if (tag === "fm") {
+          return project.linkFM && project.linkFM.trim() !== "";
+        }
+        return project.tags.includes(tag);
+      });
 
     return matchesSearch && matchesTags;
   });
