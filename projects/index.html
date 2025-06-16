@@ -34,24 +34,54 @@
       </header>
       <section id="home" class="home-projects">
         <div class="wrapper">
-          <input type="text" id="search" placeholder="Search projects..." />
-
-          <div id="filters">
-            <label
-              ><input type="checkbox" value="fm" id="filter-fm" /> FM
-              Solutions</label
-            >
-            <label><input type="checkbox" value="css" /> HTML CSS</label>
-            <label><input type="checkbox" value="js" /> JS</label>
-            <label><input type="checkbox" value="react" /> React</label>
-            <label><input type="checkbox" value="angular" /> Angular</label>
-            <label
-              ><input type="checkbox" value="tailwind css" /> Tailwind
-              CSS</label
-            ><label
-              ><input type="checkbox" value="scss (sass)" /> SCSS (Sass)</label
-            >
+          <div class="top-bar">
+            <input type="text" id="search" placeholder="Search projects..." />
+            <button id="open-filters-btn" class="open-filters-btn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M21 4V6H20L15 13.5V22H9V13.5L4 6H3V4H21ZM6.4037 6L11 12.8944V20H13V12.8944L17.5963 6H6.4037Z"
+                ></path>
+              </svg>
+              Filters
+              <span id="active-filters-count"> </span>
+            </button>
           </div>
+
+          <aside id="filter-panel" class="filter-panel hidden">
+            <div class="filter-header">
+              <h3>Filters</h3>
+              <button id="close-filters" onclick="closeFilterPanel()">×</button>
+            </div>
+            <div id="filters">
+              <label
+                ><input type="checkbox" value="fm" id="filter-fm" /> FM
+                Solutions</label
+              >
+              <label><input type="checkbox" value="css" /> HTML CSS</label>
+              <label><input type="checkbox" value="js" /> JS</label>
+              <label><input type="checkbox" value="react" /> React</label>
+              <label><input type="checkbox" value="angular" /> Angular</label>
+              <label
+                ><input type="checkbox" value="tailwind css" /> Tailwind
+                CSS</label
+              >
+              <label
+                ><input type="checkbox" value="scss (sass)" /> SCSS
+                (Sass)</label
+              >
+            </div>
+            <button
+              id="reset-filters"
+              class="reset-btn"
+              onclick="resetFilters()"
+            >
+              Reset Filters
+            </button>
+          </aside>
 
           <div id="projects-container"></div>
 

@@ -423,6 +423,7 @@ label {
   cursor: pointer;
   user-select: none;
   position: relative;
+  width: 100%;
 }
 input[type="checkbox"] {
   appearance: none;
@@ -454,4 +455,67 @@ input[type="checkbox"]::before {
 }
 input[type="checkbox"]:checked::before {
   opacity: 1;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.open-filters-btn {
+  background-color: #4a4a4a;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  display: flex;
+  gap: 0.4rem;
+}
+.open-filters-btn svg {
+  width: 1.6rem;
+  height: auto;
+  align-self: flex-start;
+}
+.filter-panel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 30rem;
+  max-width: 80%;
+  height: 100%;
+  background: #f8f8f8;
+  box-shadow: -0.2rem 0 0.5rem rgba(0, 0, 0, 0.2);
+  padding: 1.5rem;
+  z-index: 1000;
+  overflow-y: auto;
+  transition: transform 0.3s ease-in-out;
+}
+.filter-panel.hidden {
+  display: none;
+}
+.filter-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  border-bottom: 0.1rem solid;
+}
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.reset-btn {
+  margin-top: 1rem;
+  background: #e74c3c;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+#close-filters {
+  font-size: 3rem;
 }

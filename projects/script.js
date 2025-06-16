@@ -110,7 +110,36 @@ searchInput.addEventListener("input", () => {
 });
 filterInputs.forEach((input) =>
   input.addEventListener("change", () => {
+    updateActiveFiltersCount();
     currentPage = 1;
     renderProjects();
   })
 );
+
+const openFiltersBtn = document.getElementById("open-filters-btn");
+const filterPanel = document.getElementById("filter-panel");
+
+openFiltersBtn.addEventListener("click", () => {
+  filterPanel.classList.remove("hidden");
+});
+
+function closeFilterPanel() {
+  document.getElementById("filter-panel").classList.add("hidden");
+}
+
+function resetFilters() {
+  filterInputs.forEach((input) => (input.checked = false));
+  currentPage = 1;
+  renderProjects();
+  updateActiveFiltersCount();
+}
+
+const activeFiltersCountSpan = document.getElementById("active-filters-count");
+
+function updateActiveFiltersCount() {
+  const activeCount = Array.from(filterInputs).filter(
+    (input) => input.checked
+  ).length;
+  activeFiltersCountSpan.textContent =
+    activeCount > 0 ? `(${activeCount})` : "";
+}
