@@ -1,5 +1,104 @@
 [
   {
+    "id": 34,
+    "title": "RPG Creature Search App",
+    "description": "The application allows users to search for creatures by name or ID and displays detailed information along with images. It uses the freeCodeCamp RPG Creature API to fetch real-time data and provides a simple, user-friendly interface for exploring the creature database.",
+    "image": "../images/projects/09-rpg-creature-search.png",
+    "url": "https://tetianaaleks.github.io/09-rpg-creature-search/",
+    "githubUrl": "https://github.com/TetianaAleks/09-rpg-creature-search",
+    "tags": ["html", "css", "js"],
+    "freeCodeCamp": true
+  },
+  {
+    "id": 33,
+    "title": "Cash Register",
+    "description": "The app calculates and returns the correct change based on the item's price, the cash provided by the customer, and the available cash in the drawer. It also handles and displays appropriate messages for different scenarios, such as insufficient funds or exact change situations.",
+    "image": "../images/projects/08-cash-register.png",
+    "url": "https://tetianaaleks.github.io/08-cash-register/",
+    "githubUrl": "https://github.com/TetianaAleks/08-cash-register",
+    "tags": ["html", "css", "js"],
+    "freeCodeCamp": true
+  },
+  {
+    "id": 32,
+    "title": "Telephone Number Validator",
+    "description": "The application checks if a given phone number is valid based on accepted formats in the US. It ensures the presence of a valid area code and, if a country code is included, verifies that it is 1.",
+    "image": "../images/projects/07-telephone-number-validator.png",
+    "url": "https://tetianaaleks.github.io/07-telephone-number-validator/",
+    "githubUrl": "https://github.com/TetianaAleks/07-telephone-number-validator",
+    "tags": ["html", "css", "js"],
+    "freeCodeCamp": true
+  },
+  {
+    "id": 31,
+    "title": "Roman Numeral Converter",
+    "description": "Roman numerals are based on seven symbols and can be written using various combinations to represent Arabic numerals.",
+    "image": "../images/projects/06-roman-numeral-converter.png",
+    "url": "https://tetianaaleks.github.io/06-roman-numeral-converter/",
+    "githubUrl": "https://github.com/TetianaAleks/06-roman-numeral-converter",
+    "tags": ["html", "css", "js"],
+    "freeCodeCamp": true
+  },
+  {
+    "id": 30,
+    "title": "Palindrome Checker",
+    "description": "A palindrome is a word or phrase that can be read the same way forwards and backwards, ignoring punctuation, case, and spacing.",
+    "image": "../images/projects/05-palindrome-checker.png",
+    "url": "https://tetianaaleks.github.io/05-palindrome-checker/",
+    "githubUrl": "https://github.com/TetianaAleks/05-palindrome-checker",
+    "tags": ["html", "css", "js"],
+    "freeCodeCamp": true
+  },
+  {
+    "id": 29,
+    "title": "All Projects Page — Portfolio Extension",
+    "description": "This page is an extension of the main portfolio. It displays all completed projects with a convenient filter system and search functionality for easier browsing.",
+    "image": "../images/projects/personal-portfolio-projects.png",
+    "url": "https://tetianaaleks.github.io/personal-portfolio/",
+    "githubUrl": "https://tetianaaleks.github.io/personal-portfolio/projects/",
+    "tags": ["html", "css", "js"]
+  },
+  {
+    "id": 28,
+    "title": "Personal Portfolio Webpage",
+    "description": "It includes a responsive portfolio page with smooth scrolling, project showcase, and contact form functionality.",
+    "image": "../images/projects/personal-portfolio.png",
+    "url": "https://tetianaaleks.github.io/personal-portfolio/",
+    "githubUrl": "https://github.com/TetianaAleks/personal-portfolio",
+    "tags": ["html", "css", "js"],
+    "freeCodeCamp": true
+  },
+  {
+    "id": 27,
+    "title": "Technical Documentation Page",
+    "description": "This project is a Technical Documentation Page about the Basic Concepts of Flexbox, based on the MDN Web Docs article. The page includes a fixed navigation sidebar for easy section access and a sticky header for consistent context while scrolling.",
+    "image": "../images/projects/03-technical-documentation-page.png",
+    "url": "https://tetianaaleks.github.io/fcc-solutions-hub/03-technical-documentation-page/",
+    "githubUrl": "https://github.com/TetianaAleks/fcc-solutions-hub/tree/main/03-technical-documentation-page",
+    "tags": ["html", "css"],
+    "freeCodeCamp": true
+  },
+  {
+    "id": 26,
+    "title": "Tribute Page",
+    "description": "This Tribute Page is dedicated to the Finnish heavy metal band Battle Beast. It features the band’s name, a brief history, notable achievements, and a list of their most popular albums and songs.",
+    "image": "../images/projects/02-tribute-page.png",
+    "url": "https://tetianaaleks.github.io/fcc-solutions-hub/02-tribute-page/",
+    "githubUrl": "https://github.com/TetianaAleks/fcc-solutions-hub/tree/main/02-tribute-page",
+    "tags": ["html", "css"],
+    "freeCodeCamp": true
+  },
+  {
+    "id": 25,
+    "title": "Survey Form",
+    "description": "Survey Form is a responsive web form designed to collect user feedback efficiently. Users can enter personal information such as full name, email, and age.",
+    "image": "../images/projects/01-survey-form.png",
+    "url": "https://tetianaaleks.github.io/fcc-solutions-hub/01-survey-form/",
+    "githubUrl": "https://github.com/TetianaAleks/fcc-solutions-hub/tree/main/01-survey-form",
+    "tags": ["html", "css"],
+    "freeCodeCamp": true
+  },
+  {
     "id": 24,
     "title": "Chat app CSS illustration",
     "description": "In this challenge, you'll be building out the entire app illustration from scratch. This will seriously test your CSS skills. So give it a go if you feel confident!",

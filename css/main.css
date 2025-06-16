@@ -388,7 +388,7 @@ h3 {
 }
 .page-btn {
   display: inline-block;
-  margin: 1rem 0.5rem;
+  margin: 1rem 0.25rem;
   padding: 0.5rem 1rem;
   background: var(--red);
   color: white;
@@ -401,6 +401,17 @@ h3 {
 .page-btn:hover {
   background: var(--grey);
 }
+.page-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.pagination-dots {
+  display: inline-block;
+  margin: 1rem 0.25rem;
+  font-weight: bold;
+  color: var(--grey);
+}
+
 #search {
   outline: none;
   padding: 1rem 2rem;
@@ -461,16 +472,19 @@ input[type="checkbox"]:checked::before {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
 }
 .open-filters-btn {
-  background-color: #4a4a4a;
-  color: white;
+  background-color: white;
+  color: var(--grey);
   border: none;
-  padding: 0.5rem 1rem;
+  padding: 1rem 2rem;
   cursor: pointer;
   display: flex;
   gap: 0.4rem;
+  font-size: 2rem;
+  border-radius: 0.4rem;
+  box-shadow: -0.2rem 0 0.5rem rgba(0, 0, 0, 0.2);
 }
 .open-filters-btn svg {
   width: 1.6rem;
@@ -487,9 +501,9 @@ input[type="checkbox"]:checked::before {
   background: #f8f8f8;
   box-shadow: -0.2rem 0 0.5rem rgba(0, 0, 0, 0.2);
   padding: 1.5rem;
-  z-index: 1000;
   overflow-y: auto;
   transition: transform 0.3s ease-in-out;
+  z-index: 1001;
 }
 .filter-panel.hidden {
   display: none;
@@ -518,4 +532,15 @@ input[type="checkbox"]:checked::before {
 }
 #close-filters {
   font-size: 3rem;
+}
+
+.no-results {
+  margin: 2rem auto;
+  text-align: center;
+  color: var(--grey);
+  font-size: 2.2rem;
+  grid-column: 1 / 4;
+  background-color: white;
+  padding: 2rem 1rem;
+  box-shadow: -0.2rem 0 0.5rem rgba(0, 0, 0, 0.2);
 }

@@ -115,6 +115,13 @@
     padding-top: 60%;
   }
   #search {
-    min-width: 100%;
+    min-width: 50%;
+  }
+  .top-bar {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .filter-panel {
+    max-width: 100%;
   }
 }

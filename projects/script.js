@@ -15,11 +15,20 @@ fetch("projects.json")
     allProjects = data;
     const params = new URLSearchParams(window.location.search);
     const filterByLinkFM = params.get("linkFM") === "true";
+    const filterByFreeCodeCamp = params.get("freeCodeCamp") === "true";
 
     if (filterByLinkFM) {
       const fmCheckbox = document.getElementById("filter-fm");
       if (fmCheckbox) {
         fmCheckbox.checked = true;
+        updateActiveFiltersCount();
+      }
+    }
+    if (filterByFreeCodeCamp) {
+      const ffcCheckbox = document.getElementById("filter-freeCodeCamp");
+      if (ffcCheckbox) {
+        ffcCheckbox.checked = true;
+        updateActiveFiltersCount();
       }
     }
     renderProjects();
@@ -42,11 +51,23 @@ function renderProjects() {
         if (tag === "fm") {
           return project.linkFM && project.linkFM.trim() !== "";
         }
+        if (tag === "freeCodeCamp") {
+          return project.freeCodeCamp && project.freeCodeCamp === true;
+        }
         return project.tags.includes(tag);
       });
 
     return matchesSearch && matchesTags;
   });
+
+  if (filtered.length === 0) {
+    projectContainer.innerHTML = `
+      <div class="no-results">
+        There are no projects matching your filters or search.
+      </div>`;
+    paginationContainer.innerHTML = "";
+    return;
+  }
 
   const totalPages = Math.ceil(filtered.length / perPage);
   const start = (currentPage - 1) * perPage;
@@ -92,16 +113,67 @@ function renderProjects() {
 function renderPagination(totalPages) {
   paginationContainer.innerHTML = "";
 
-  for (let i = 1; i <= totalPages; i++) {
+  const createPageButton = (pageNum) => {
     const btn = document.createElement("button");
-    btn.textContent = i;
-    btn.className = "page-btn" + (i === currentPage ? " active" : "");
+    btn.textContent = pageNum;
+    btn.className = "page-btn" + (pageNum === currentPage ? " active" : "");
     btn.onclick = () => {
-      currentPage = i;
+      currentPage = pageNum;
       renderProjects();
     };
     paginationContainer.appendChild(btn);
+  };
+
+  const createDots = () => {
+    const dots = document.createElement("span");
+    dots.textContent = "...";
+    dots.className = "pagination-dots";
+    paginationContainer.appendChild(dots);
+  };
+
+  const prevBtn = document.createElement("button");
+  prevBtn.textContent = "←";
+  prevBtn.className = "page-btn nav-btn";
+  prevBtn.disabled = currentPage === 1;
+  prevBtn.onclick = () => {
+    if (currentPage > 1) {
+      currentPage--;
+      renderProjects();
+    }
+  };
+  paginationContainer.appendChild(prevBtn);
+
+  if (totalPages <= 7) {
+    for (let i = 1; i <= totalPages; i++) createPageButton(i);
+  } else {
+    createPageButton(1);
+
+    if (currentPage > 3) createDots();
+
+    for (
+      let i = Math.max(2, currentPage - 1);
+      i <= Math.min(totalPages - 1, currentPage + 1);
+      i++
+    ) {
+      createPageButton(i);
+    }
+
+    if (currentPage < totalPages - 2) createDots();
+
+    createPageButton(totalPages);
   }
+
+  const nextBtn = document.createElement("button");
+  nextBtn.textContent = "→";
+  nextBtn.className = "page-btn nav-btn";
+  nextBtn.disabled = currentPage === totalPages;
+  nextBtn.onclick = () => {
+    if (currentPage < totalPages) {
+      currentPage++;
+      renderProjects();
+    }
+  };
+  paginationContainer.appendChild(nextBtn);
 }
 
 searchInput.addEventListener("input", () => {
@@ -143,3 +215,12 @@ function updateActiveFiltersCount() {
   activeFiltersCountSpan.textContent =
     activeCount > 0 ? `(${activeCount})` : "";
 }
+
+document.addEventListener("click", (e) => {
+  const isClickInsidePanel = filterPanel.contains(e.target);
+  const isClickOnToggleBtn = openFiltersBtn.contains(e.target);
+
+  if (!isClickInsidePanel && !isClickOnToggleBtn) {
+    filterPanel.classList.add("hidden");
+  }
+});
