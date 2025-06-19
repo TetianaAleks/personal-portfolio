@@ -1,5 +1,25 @@
 [
   {
+    "id": 36,
+    "title": "Tip calculator app",
+    "description": "This small app is perfect for anyone starting to get to grips with JavaScript. The calculator functionality will be a nice test!",
+    "image": "../images/projects/24-tip-calculator-app.png",
+    "url": "https://tetianaaleks.github.io/fm-solutions-hub/24-tip-calculator-app/",
+    "linkFM": "https://www.frontendmentor.io/solutions/tip-calculator-app-I7nm2URh_A",
+    "githubUrl": "https://github.com/TetianaAleks/fm-solutions-hub/tree/main/24-tip-calculator-app",
+    "tags": ["html", "css", "js"]
+  },
+  {
+    "id": 35,
+    "title": "Time tracking dashboard",
+    "description": "A perfect opportunity to practice your CSS Grid skills. For anyone wanting to take it up a notch, we provide a JSON data file to practice working with data.",
+    "image": "../images/projects/23-time-tracking-dashboard.png",
+    "url": "https://tetianaaleks.github.io/fm-solutions-hub/23-time-tracking-dashboard/",
+    "linkFM": "https://www.frontendmentor.io/solutions/time-tracking-dashboard-kVHXCrx7HI",
+    "githubUrl": "https://github.com/TetianaAleks/fm-solutions-hub/tree/main/23-time-tracking-dashboard",
+    "tags": ["html", "css", "js"]
+  },
+  {
     "id": 34,
     "title": "RPG Creature Search App",
     "description": "The application allows users to search for creatures by name or ID and displays detailed information along with images. It uses the freeCodeCamp RPG Creature API to fetch real-time data and provides a simple, user-friendly interface for exploring the creature database.",
