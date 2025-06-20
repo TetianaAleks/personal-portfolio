@@ -1,5 +1,45 @@
 [
   {
+    "id": 40,
+    "title": "News homepage",
+    "description": "This news homepage will be an excellent opportunity to practice your CSS Grid skills. There will be lots of tricky decisions to make and plenty of learning opportunities!",
+    "image": "../images/projects/28-news-homepage.png",
+    "url": "https://tetianaaleks.github.io/fm-solutions-hub/28-news-homepage/",
+    "linkFM": "https://www.frontendmentor.io/solutions/news-homepage-HEwZxPJHpZ",
+    "githubUrl": "https://github.com/TetianaAleks/fm-solutions-hub/tree/main/28-news-homepage",
+    "tags": ["html", "css", "js"]
+  },
+  {
+    "id": 39,
+    "title": "Contact form",
+    "description": "Building accessible forms is a crucial task for front-end developers. This challenge will help you practice building a form with several input types and validation.",
+    "image": "../images/projects/27-contact-form.png",
+    "url": "https://tetianaaleks.github.io/fm-solutions-hub/27-contact-form/",
+    "linkFM": "https://www.frontendmentor.io/solutions/contact-form-zz_d21WUfl",
+    "githubUrl": "https://github.com/TetianaAleks/fm-solutions-hub/tree/main/27-contact-form",
+    "tags": ["html", "css", "js"]
+  },
+  {
+    "id": 38,
+    "title": "FAQ accordion",
+    "description": "In this challenge, you'll build an FAQ accordion. This is an extremely common front-end pattern, so it's an excellent opportunity to get some practice in!",
+    "image": "../images/projects/26-faq-accordion.png",
+    "url": "https://tetianaaleks.github.io/fm-solutions-hub/26-faq-accordion/",
+    "linkFM": "https://www.frontendmentor.io/solutions/faq-accordion-5TH4ySRZGR",
+    "githubUrl": "https://github.com/TetianaAleks/fm-solutions-hub/tree/main/26-faq-accordion",
+    "tags": ["html", "css", "js"]
+  },
+  {
+    "id": 37,
+    "title": "Interactive rating component",
+    "description": "This is a nice, small project to practice handling user interactions and updating the DOM. Perfect for anyone who has learned the basics of JavaScript!",
+    "image": "../images/projects/25-interactive-rating-component.png",
+    "url": "https://tetianaaleks.github.io/fm-solutions-hub/25-interactive-rating-component/",
+    "linkFM": "https://www.frontendmentor.io/solutions/interactive-rating-component-h19QfYNAFa",
+    "githubUrl": "https://github.com/TetianaAleks/fm-solutions-hub/tree/main/25-interactive-rating-component",
+    "tags": ["html", "css", "js"]
+  },
+  {
     "id": 36,
     "title": "Tip calculator app",
     "description": "This small app is perfect for anyone starting to get to grips with JavaScript. The calculator functionality will be a nice test!",
@@ -236,7 +276,7 @@
     "url": "https://tetianaaleks.github.io/fm-solutions-hub/09-results-summary-component/",
     "linkFM": "https://www.frontendmentor.io/solutions/results-summary-component-mLArmaFhfO",
     "githubUrl": "https://github.com/TetianaAleks/fm-solutions-hub/tree/main/09-results-summary-component",
-    "tags": ["html", "css"]
+    "tags": ["html", "css", "js"]
   },
   {
     "id": 12,
